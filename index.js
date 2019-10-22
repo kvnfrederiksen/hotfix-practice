@@ -1,5 +1,5 @@
 const fakeFunction = () => {
-    console.log('this is a fake function');
+    console.log('this is the first fake function');
 };
 
 const anotherFakeFunction = () => {
