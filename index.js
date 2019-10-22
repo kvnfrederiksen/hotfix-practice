@@ -10,11 +10,12 @@ const myThirdFunction = () => {
     console.log('this is my third function');
 };
 
-const functionFour = () => {
+const functionFour = (start) => {
     console.log('fake function four is here');
+    return start + 1;
 };
 
 fakeFunction();
 anotherFakeFunction();
 myThirdFunction();
-functionFour();
+const currentValue = functionFour(4);
